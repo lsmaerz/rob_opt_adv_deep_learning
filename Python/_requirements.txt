@@ -1,0 +1,11 @@
+python==3.6
+pandas
+numpy
+numba
+
+pytorch==1.2.0
+torchvision==0.4.0
+tensorflow=1.14 keras scipy=1.1
+robustness
+opencv-python
+Py-BOBYQA
