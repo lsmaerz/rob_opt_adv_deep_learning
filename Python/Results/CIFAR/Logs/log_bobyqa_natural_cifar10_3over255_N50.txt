@@ -1,0 +1,949 @@
+=> loading checkpoint './Models/Madry/cifar_nat.pt'
+=> loaded checkpoint './Models/Madry/cifar_nat.pt' (epoch 190)
+dataset cifar10
+[EXPERIMENTAL SETUP] Attacking 50 test images with  0.0117647  energy
+                     0  attacks have already been conducted.
+i =  0
+[L1] Image of class  3  targeted to  0 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 17.682, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 0.0010003629255628255
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99994, loss_f = 12.766, maxel = 3
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99842, loss_f = 8.9327, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99014, loss_f = 6.6539, maxel = 3
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.96181, loss_f = 4.8728, maxel = 3
+[STATS][L2] iter = 50, cost = 1359, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.87442, loss_f = 3.6291, maxel = 3
+[STATS][L2] iter = 60, cost = 1639, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.70762, loss_f = 2.4056, maxel = 3
+[STATS][L2] iter = 70, cost = 1917, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.52609, loss_f = 1.6984, maxel = 3
+[STATS][L2] iter = 80, cost = 2197, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.085011, loss_f = 0.42009, maxel = 3
+Early Discover made at  6
+[STATS][L3](First valid attack found!) iter = 82, cost = 2273
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=0, success: True, prev_class = 3, new_class = 0
+i =  1
+[L1] Image of class  3  targeted to  1 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 16.257, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by -0.002914908361855595
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99992, loss_f = 12.188, maxel = 3
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99969, loss_f = 10.107, maxel = 3
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.9986, loss_f = 8.3743, maxel = 3
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99433, loss_f = 6.7895, maxel = 3
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.9795, loss_f = 5.1489, maxel = 3
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.9339, loss_f = 3.7352, maxel = 3
+[STATS][L2] iter = 70, cost = 1918, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.8609, loss_f = 2.8032, maxel = 3
+[STATS][L2] iter = 80, cost = 2196, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.68177, loss_f = 1.7735, maxel = 3
+[STATS][L2] iter = 90, cost = 2473, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.41466, loss_f = 0.99414, maxel = 3
+[STATS][L2] iter = 100, cost = 2752, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.05441, loss_f = 0.20562, maxel = 3
+Early Discover made at  6
+[STATS][L3](First valid attack found!) iter = 102, cost = 2830
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=1, success: True, prev_class = 3, new_class = 1
+i =  2
+[L1] Image of class  3  targeted to  2 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 16.695, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 0.0010643195461099708
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.9998, loss_f = 10.413, maxel = 3
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.97867, loss_f = 4.7064, maxel = 3
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.87696, loss_f = 2.7876, maxel = 3
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.28267, loss_f = 0.61347, maxel = 3
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 42, cost = 1161
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=2, success: True, prev_class = 3, new_class = 2
+i =  3
+[L1] Image of class  3  targeted to  4 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 16.858, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 0.0014179384604062761
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99985, loss_f = 12.574, maxel = 3
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.9948, loss_f = 10.486, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.97726, loss_f = 9.3317, maxel = 3
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.88248, loss_f = 8.1633, maxel = 3
+[STATS][L2] iter = 50, cost = 1360, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.67248, loss_f = 7.1462, maxel = 3
+[STATS][L2] iter = 60, cost = 1640, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.68639, loss_f = 6.1178, maxel = 3
+[STATS][L2] iter = 70, cost = 1920, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.71602, loss_f = 5.1351, maxel = 3
+[STATS][L2] iter = 80, cost = 2200, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.73573, loss_f = 4.0389, maxel = 3
+[STATS][L2] iter = 90, cost = 2480, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.62071, loss_f = 3.2724, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 100, cost = 2760, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.57738, loss_f = 2.5441, maxel = 3
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=3, success: False, prev_class = 3, new_class = 3
+i =  4
+[L1] Image of class  3  targeted to  5 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 14.919, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 0.004267366503174941
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99957, loss_f = 8.4539, maxel = 3
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.97217, loss_f = 4.2631, maxel = 3
+[STATS][L2] iter = 30, cost = 798, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.64731, loss_f = 1.5421, maxel = 3
+Early Discover made at  6
+[STATS][L3](First valid attack found!) iter = 36, cost = 988
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=4, success: True, prev_class = 3, new_class = 5
+i =  5
+[L1] Image of class  3  targeted to  6 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 15.979, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 0.0024172847828722865
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.9999, loss_f = 10.856, maxel = 3
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99848, loss_f = 7.8539, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 798, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99369, loss_f = 6.5599, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1078, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.98087, loss_f = 5.3242, maxel = 3
+[STATS][L2] iter = 50, cost = 1358, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.95085, loss_f = 4.1215, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1638, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.78078, loss_f = 2.3037, maxel = 3
+[STATS][L2] iter = 70, cost = 1916, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.4605, loss_f = 1.0868, maxel = 3
+Early Discover made at  4
+[STATS][L3](First valid attack found!) iter = 75, cost = 2080
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=5, success: True, prev_class = 3, new_class = 6
+i =  6
+[L1] Image of class  3  targeted to  7 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 19.113, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by -0.0005046999072781944
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99977, loss_f = 14.579, maxel = 3
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.97845, loss_f = 10.73, maxel = 3
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.90741, loss_f = 9.4329, maxel = 3
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.63855, loss_f = 8.1274, maxel = 3
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.49037, loss_f = 7.3841, maxel = 3
+[STATS][L2] iter = 60, cost = 1639, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.52175, loss_f = 6.5862, maxel = 3
+[STATS][L2] iter = 70, cost = 1918, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.5024, loss_f = 6.0318, maxel = 3
+[STATS][L2] iter = 80, cost = 2198, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.36812, loss_f = 5.244, maxel = 5
+[STATS][L2] iter = 90, cost = 2478, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.35007, loss_f = 4.5271, maxel = 3
+[STATS][L2] iter = 100, cost = 2758, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.37882, loss_f = 3.5444, maxel = 3
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=6, success: False, prev_class = 3, new_class = 3
+i =  7
+[L1] Image of class  3  targeted to  8 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 17.503, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 0.002000525633345518
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99996, loss_f = 13.116, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99921, loss_f = 10.068, maxel = 3
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99826, loss_f = 8.776, maxel = 3
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99499, loss_f = 7.1266, maxel = 3
+[STATS][L2] iter = 50, cost = 1360, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.98074, loss_f = 5.6147, maxel = 3
+[STATS][L2] iter = 60, cost = 1639, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.94019, loss_f = 4.2471, maxel = 3
+[STATS][L2] iter = 70, cost = 1918, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.79801, loss_f = 2.7731, maxel = 3
+[STATS][L2] iter = 80, cost = 2196, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.63514, loss_f = 1.899, maxel = 3
+[STATS][L2] iter = 90, cost = 2476, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.16871, loss_f = 0.71842, maxel = 3
+Early Discover made at  18
+[STATS][L3](First valid attack found!) iter = 95, cost = 2625
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=7, success: True, prev_class = 3, new_class = 8
+i =  8
+[L1] Image of class  3  targeted to  9 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 18.021, maxel = 3
+[WARNING] Rebuilt intial vecotr has a loss different by 6.434211326933337e-05
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99963, loss_f = 14.169, maxel = 3
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99294, loss_f = 11.964, maxel = 3
+[STATS][L2] iter = 30, cost = 800, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.95516, loss_f = 10.528, maxel = 3
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.83775, loss_f = 9.1057, maxel = 3
+[STATS][L2] iter = 50, cost = 1360, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.69718, loss_f = 8.0433, maxel = 3
+[STATS][L2] iter = 60, cost = 1640, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.66528, loss_f = 7.3615, maxel = 3
+[STATS][L2] iter = 70, cost = 1920, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.55943, loss_f = 6.555, maxel = 3
+[STATS][L2] iter = 80, cost = 2199, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.63784, loss_f = 5.9837, maxel = 3
+[STATS][L2] iter = 90, cost = 2479, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.60404, loss_f = 5.2869, maxel = 3
+[STATS][L2] iter = 100, cost = 2759, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.50423, loss_f = 4.6223, maxel = 3
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=8, success: False, prev_class = 3, new_class = 3
+i =  9
+[L1] Image of class  8  targeted to  0 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 14.163, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.013689003632251229
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99991, loss_f = 11.862, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99965, loss_f = 10.19, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99881, loss_f = 8.7695, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99669, loss_f = 7.2727, maxel = 8
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.98553, loss_f = 5.2908, maxel = 8
+[STATS][L2] iter = 60, cost = 1640, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.91495, loss_f = 3.2265, maxel = 8
+[STATS][L2] iter = 70, cost = 1920, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.7866, loss_f = 2.2108, maxel = 8
+[STATS][L2] iter = 80, cost = 2199, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.24876, loss_f = 0.53948, maxel = 8
+Early Discover made at  24
+[STATS][L3](First valid attack found!) iter = 85, cost = 2343
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=9, success: True, prev_class = 8, new_class = 0
+i =  10
+[L1] Image of class  8  targeted to  1 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99998, loss_f = 11.637, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.10471147181795715
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99969, loss_f = 8.7847, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.996, loss_f = 6.2137, maxel = 8
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.96484, loss_f = 4.0238, maxel = 8
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.70196, loss_f = 1.7425, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+Early Discover made at  6
+[STATS][L3](First valid attack found!) iter = 48, cost = 1328
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=10, success: True, prev_class = 8, new_class = 1
+i =  11
+[L1] Image of class  8  targeted to  2 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 18.46, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.012159127698115668
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99994, loss_f = 16.817, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99982, loss_f = 16.051, maxel = 8
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99912, loss_f = 15.269, maxel = 8
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99261, loss_f = 14.484, maxel = 8
+[STATS][L2] iter = 50, cost = 1359, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.94593, loss_f = 13.569, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1639, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.89064, loss_f = 12.699, maxel = 8
+[STATS][L2] iter = 70, cost = 1917, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.82368, loss_f = 12.058, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.81796, loss_f = 11.147, maxel = 8
+[STATS][L2] iter = 90, cost = 2475, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.86739, loss_f = 10.437, maxel = 8
+[STATS][L2] iter = 100, cost = 2755, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.9197, loss_f = 9.6384, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=11, success: False, prev_class = 8, new_class = 8
+i =  12
+[L1] Image of class  8  targeted to  3 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 17.443, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.05012826233751255
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99981, loss_f = 15.509, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99828, loss_f = 13.888, maxel = 8
+[STATS][L2] iter = 30, cost = 797, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.9933, loss_f = 12.947, maxel = 8
+[STATS][L2] iter = 40, cost = 1076, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.94778, loss_f = 11.547, maxel = 8
+[STATS][L2] iter = 50, cost = 1356, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.84011, loss_f = 10.99, maxel = 8
+[STATS][L2] iter = 60, cost = 1635, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.70644, loss_f = 10.354, maxel = 8
+[STATS][L2] iter = 70, cost = 1915, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.69815, loss_f = 9.6216, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.59111, loss_f = 8.7242, maxel = 8
+[STATS][L2] iter = 90, cost = 2474, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.58955, loss_f = 7.9013, maxel = 8
+[STATS][L2] iter = 100, cost = 2753, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.70454, loss_f = 7.2588, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=12, success: False, prev_class = 8, new_class = 8
+i =  13
+[L1] Image of class  8  targeted to  4 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 19.254, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.035093257349707585
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99988, loss_f = 17.628, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99804, loss_f = 16.334, maxel = 8
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99426, loss_f = 15.602, maxel = 8
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.97222, loss_f = 14.734, maxel = 8
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.90215, loss_f = 13.949, maxel = 8
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.63067, loss_f = 13.185, maxel = 8
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.57415, loss_f = 12.667, maxel = 8
+[STATS][L2] iter = 80, cost = 2201, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.66983, loss_f = 12.343, maxel = 8
+[STATS][L2] iter = 90, cost = 2481, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.64338, loss_f = 11.831, maxel = 8
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.68266, loss_f = 11.411, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=13, success: False, prev_class = 8, new_class = 8
+i =  14
+[L1] Image of class  8  targeted to  5 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 17.969, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.03632290276480177
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99993, loss_f = 16.312, maxel = 8
+[STATS][L2] iter = 20, cost = 520, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99977, loss_f = 15.069, maxel = 8
+[STATS][L2] iter = 30, cost = 799, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99924, loss_f = 14.111, maxel = 8
+[STATS][L2] iter = 40, cost = 1077, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99373, loss_f = 12.646, maxel = 8
+[STATS][L2] iter = 50, cost = 1357, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.96569, loss_f = 11.436, maxel = 8
+[STATS][L2] iter = 60, cost = 1634, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.90636, loss_f = 10.514, maxel = 8
+[STATS][L2] iter = 70, cost = 1914, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.84679, loss_f = 9.8318, maxel = 8
+[STATS][L2] iter = 80, cost = 2192, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.81136, loss_f = 9.2361, maxel = 8
+[STATS][L2] iter = 90, cost = 2469, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.74513, loss_f = 8.4917, maxel = 8
+[STATS][L2] iter = 100, cost = 2744, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.67495, loss_f = 8.0171, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=14, success: False, prev_class = 8, new_class = 8
+i =  15
+[L1] Image of class  8  targeted to  6 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 17.583, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.03334204930033735
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99987, loss_f = 15.62, maxel = 8
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99933, loss_f = 14.586, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99682, loss_f = 13.411, maxel = 8
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.98692, loss_f = 12.318, maxel = 8
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.93782, loss_f = 11.283, maxel = 8
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.85285, loss_f = 10.63, maxel = 8
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.77001, loss_f = 9.8878, maxel = 8
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.7346, loss_f = 9.4537, maxel = 8
+[STATS][L2] iter = 90, cost = 2473, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.79035, loss_f = 8.8211, maxel = 8
+[STATS][L2] iter = 100, cost = 2751, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.83496, loss_f = 8.0491, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=15, success: False, prev_class = 8, new_class = 8
+i =  16
+[L1] Image of class  8  targeted to  7 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 18.252, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.034053769958227065
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99986, loss_f = 16.47, maxel = 8
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99911, loss_f = 15.378, maxel = 8
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99777, loss_f = 14.678, maxel = 8
+[STATS][L2] iter = 40, cost = 1078, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.9888, loss_f = 13.804, maxel = 8
+[STATS][L2] iter = 50, cost = 1353, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.9706, loss_f = 13.26, maxel = 8
+[STATS][L2] iter = 60, cost = 1631, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.91111, loss_f = 12.428, maxel = 8
+[STATS][L2] iter = 70, cost = 1911, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.82977, loss_f = 11.928, maxel = 8
+[STATS][L2] iter = 80, cost = 2187, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.72967, loss_f = 11.628, maxel = 8
+[STATS][L2] iter = 90, cost = 2467, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.67162, loss_f = 11.166, maxel = 8
+[STATS][L2] iter = 100, cost = 2747, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.74091, loss_f = 10.634, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=16, success: False, prev_class = 8, new_class = 8
+i =  17
+[L1] Image of class  8  targeted to  9 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 16.527, maxel = 8
+[WARNING] Rebuilt intial vecotr has a loss different by -0.05559874956269795
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99987, loss_f = 14.516, maxel = 8
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99929, loss_f = 12.983, maxel = 8
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99037, loss_f = 10.638, maxel = 8
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.93701, loss_f = 9.256, maxel = 8
+[STATS][L2] iter = 50, cost = 1360, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.82616, loss_f = 8.2179, maxel = 8
+[STATS][L2] iter = 60, cost = 1637, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.72444, loss_f = 7.6945, maxel = 8
+[STATS][L2] iter = 70, cost = 1914, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.65106, loss_f = 7.1801, maxel = 8
+[STATS][L2] iter = 80, cost = 2190, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.56234, loss_f = 6.6542, maxel = 8
+[STATS][L2] iter = 90, cost = 2468, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.59487, loss_f = 6.0157, maxel = 8
+[STATS][L2] iter = 100, cost = 2744, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.55517, loss_f = 5.655, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=17, success: False, prev_class = 8, new_class = 8
+i =  18
+[L1] Image of class  8  targeted to  0 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 12.271, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.93073, loss_f = 8.336, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.82132, loss_f = 6.0529, maxel = 8
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.68795, loss_f = 4.6484, maxel = 8
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.488, loss_f = 3.3072, maxel = 8
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.40185, loss_f = 1.9347, maxel = 8
+Early Discover made at  4
+[STATS][L2] iter = 60, cost = 1638, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.0016255, loss_f = 0.67326, maxel = 8
+Early Discover made at  26
+[STATS][L3](First valid attack found!) iter = 60, cost = 1640
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=18, success: True, prev_class = 8, new_class = 0
+i =  19
+[L1] Image of class  8  targeted to  1 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99903, loss_f = 7.6434, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 251, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.52771, loss_f = 1.1745, maxel = 8
+Early Discover made at  11
+[STATS][L3](First valid attack found!) iter = 13, cost = 341
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=19, success: True, prev_class = 8, new_class = 1
+i =  20
+[L1] Image of class  8  targeted to  2 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 14.393, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.988, loss_f = 9.9246, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.95003, loss_f = 5.395, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.86485, loss_f = 3.1391, maxel = 8
+Early Discover made at  2
+[STATS][L3](First valid attack found!) iter = 38, cost = 1051
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=20, success: True, prev_class = 8, new_class = 2
+i =  21
+[L1] Image of class  8  targeted to  3 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 15.583, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.94031, loss_f = 12.239, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.82891, loss_f = 10.19, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.63754, loss_f = 8.8719, maxel = 8
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.66238, loss_f = 7.9301, maxel = 8
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.47609, loss_f = 6.5927, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.49156, loss_f = 5.6488, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.53121, loss_f = 5.0661, maxel = 8
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.48432, loss_f = 4.0041, maxel = 8
+[STATS][L2] iter = 90, cost = 2482, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.51344, loss_f = 3.0718, maxel = 8
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.51482, loss_f = 2.3073, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=21, success: False, prev_class = 8, new_class = 8
+i =  22
+[L1] Image of class  8  targeted to  4 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 15.804, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.96647, loss_f = 13.069, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.75651, loss_f = 10.622, maxel = 8
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.61771, loss_f = 9.3541, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.58515, loss_f = 8.0292, maxel = 8
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.59298, loss_f = 6.7052, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.56057, loss_f = 5.6849, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.50492, loss_f = 4.4715, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.39034, loss_f = 3.4185, maxel = 8
+[STATS][L2] iter = 90, cost = 2482, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.32169, loss_f = 1.894, maxel = 8
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.090495, loss_f = 0.8156, maxel = 8
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 103, cost = 2868
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=22, success: True, prev_class = 8, new_class = 4
+i =  23
+[L1] Image of class  8  targeted to  5 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 16.63, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.93007, loss_f = 12.972, maxel = 8
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.68551, loss_f = 11.797, maxel = 8
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.76169, loss_f = 10.306, maxel = 8
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.62398, loss_f = 9.1065, maxel = 8
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.66053, loss_f = 7.2522, maxel = 8
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.66472, loss_f = 5.8862, maxel = 8
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.57576, loss_f = 4.4561, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 80, cost = 2201, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.49234, loss_f = 3.4456, maxel = 8
+[STATS][L2] iter = 90, cost = 2481, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.44137, loss_f = 2.5809, maxel = 8
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.17868, loss_f = 1.2962, maxel = 8
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 105, cost = 2921
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=23, success: True, prev_class = 8, new_class = 5
+i =  24
+[L1] Image of class  8  targeted to  6 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 14.864, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.96443, loss_f = 11.41, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.8768, loss_f = 9.511, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.67725, loss_f = 7.9039, maxel = 8
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.72556, loss_f = 6.2163, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.7238, loss_f = 4.6994, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.5372, loss_f = 3.4828, maxel = 8
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.41005, loss_f = 1.9973, maxel = 8
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.15689, loss_f = 0.7903, maxel = 8
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 83, cost = 2309
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=24, success: True, prev_class = 8, new_class = 6
+i =  25
+[L1] Image of class  8  targeted to  7 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 15.453, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 251, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.92627, loss_f = 12.135, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 520, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.65828, loss_f = 9.7176, maxel = 8
+[STATS][L2] iter = 30, cost = 800, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.64263, loss_f = 8.2559, maxel = 8
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.62233, loss_f = 6.7905, maxel = 8
+[STATS][L2] iter = 50, cost = 1357, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.57168, loss_f = 5.8416, maxel = 8
+[STATS][L2] iter = 60, cost = 1634, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.44372, loss_f = 5.1542, maxel = 8
+[STATS][L2] iter = 70, cost = 1914, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.4159, loss_f = 4.396, maxel = 8
+[STATS][L2] iter = 80, cost = 2194, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.44888, loss_f = 3.39, maxel = 8
+[STATS][L2] iter = 90, cost = 2472, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.32542, loss_f = 2.5889, maxel = 8
+[STATS][L2] iter = 100, cost = 2747, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.30634, loss_f = 1.8808, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=25, success: False, prev_class = 8, new_class = 8
+i =  26
+[L1] Image of class  8  targeted to  9 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99951, loss_f = 13.244, maxel = 8
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.9505, loss_f = 9.1537, maxel = 8
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.78402, loss_f = 7.4725, maxel = 8
+[STATS][L2] iter = 30, cost = 799, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.59875, loss_f = 6.409, maxel = 8
+[STATS][L2] iter = 40, cost = 1076, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.54878, loss_f = 5.4694, maxel = 1
+[STATS][L2] iter = 50, cost = 1356, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.61363, loss_f = 4.2348, maxel = 1
+[STATS][L2] iter = 60, cost = 1636, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.47518, loss_f = 2.7869, maxel = 1
+[STATS][L2] iter = 70, cost = 1916, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.28963, loss_f = 1.6303, maxel = 8
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 74, cost = 2051
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=26, success: True, prev_class = 8, new_class = 9
+i =  27
+[L1] Image of class  0  targeted to  1 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99969, loss_f = 9.8356, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99221, loss_f = 6.2532, maxel = 0
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.9354, loss_f = 3.8169, maxel = 0
+[STATS][L2] iter = 30, cost = 800, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.76748, loss_f = 2.3328, maxel = 0
+[STATS][L2] iter = 40, cost = 1078, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.36212, loss_f = 0.99222, maxel = 0
+Early Discover made at  26
+[STATS][L3](First valid attack found!) iter = 46, cost = 1247
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=27, success: True, prev_class = 0, new_class = 1
+i =  28
+[L1] Image of class  0  targeted to  2 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99971, loss_f = 10.546, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.98726, loss_f = 5.5656, maxel = 0
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.8231, loss_f = 2.495, maxel = 0
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.30675, loss_f = 0.73668, maxel = 0
+Early Discover made at  8
+[STATS][L3](First valid attack found!) iter = 36, cost = 989
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=28, success: True, prev_class = 0, new_class = 2
+i =  29
+[L1] Image of class  0  targeted to  3 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.9997, loss_f = 10.106, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.96412, loss_f = 4.2975, maxel = 0
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.61299, loss_f = 1.5684, maxel = 0
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 27, cost = 739
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=29, success: True, prev_class = 0, new_class = 3
+i =  30
+[L1] Image of class  0  targeted to  4 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99974, loss_f = 14.583, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.98746, loss_f = 10.547, maxel = 0
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.94045, loss_f = 9.0079, maxel = 0
+[STATS][L2] iter = 30, cost = 799, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.82121, loss_f = 7.645, maxel = 0
+[STATS][L2] iter = 40, cost = 1079, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.68637, loss_f = 6.5524, maxel = 0
+[STATS][L2] iter = 50, cost = 1359, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.45834, loss_f = 5.5803, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1637, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.38481, loss_f = 4.8953, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 70, cost = 1916, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.31986, loss_f = 4.1796, maxel = 0
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.29508, loss_f = 3.3854, maxel = 2
+[STATS][L2] iter = 90, cost = 2475, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.24968, loss_f = 2.8318, maxel = 3
+[STATS][L2] iter = 100, cost = 2754, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.16981, loss_f = 2.1256, maxel = 3
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=30, success: False, prev_class = 0, new_class = 3
+i =  31
+[L1] Image of class  0  targeted to  5 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99974, loss_f = 14.06, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.98632, loss_f = 9.9188, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.94449, loss_f = 8.4277, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.79595, loss_f = 7.187, maxel = 0
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.60043, loss_f = 6.2992, maxel = 0
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.43699, loss_f = 5.5789, maxel = 0
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.34321, loss_f = 5.0119, maxel = 3
+[STATS][L2] iter = 70, cost = 1920, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.34089, loss_f = 4.592, maxel = 3
+[STATS][L2] iter = 80, cost = 2200, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.3153, loss_f = 4.1528, maxel = 3
+[STATS][L2] iter = 90, cost = 2480, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.27834, loss_f = 3.754, maxel = 0
+[STATS][L2] iter = 100, cost = 2756, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.29205, loss_f = 3.4842, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=31, success: False, prev_class = 0, new_class = 8
+i =  32
+[L1] Image of class  0  targeted to  6 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99974, loss_f = 14.742, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.97887, loss_f = 11.016, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.83297, loss_f = 9.4891, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.53505, loss_f = 8.3981, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.41767, loss_f = 7.7088, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.42359, loss_f = 7.2361, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.36149, loss_f = 6.6602, maxel = 0
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.34539, loss_f = 6.2753, maxel = 0
+[STATS][L2] iter = 80, cost = 2201, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.34568, loss_f = 5.8781, maxel = 0
+[STATS][L2] iter = 90, cost = 2481, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.33846, loss_f = 5.477, maxel = 0
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.32327, loss_f = 4.9035, maxel = 8
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=32, success: False, prev_class = 0, new_class = 0
+i =  33
+[L1] Image of class  0  targeted to  7 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99974, loss_f = 13.757, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99364, loss_f = 10.64, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.9271, loss_f = 8.4675, maxel = 0
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.80753, loss_f = 7.501, maxel = 0
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.64886, loss_f = 6.7412, maxel = 0
+[STATS][L2] iter = 50, cost = 1357, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.50986, loss_f = 6.2549, maxel = 0
+[STATS][L2] iter = 60, cost = 1637, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.41214, loss_f = 5.6889, maxel = 0
+[STATS][L2] iter = 70, cost = 1917, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.41147, loss_f = 5.3621, maxel = 0
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.37396, loss_f = 5.0084, maxel = 0
+[STATS][L2] iter = 90, cost = 2473, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.37867, loss_f = 4.6023, maxel = 0
+[STATS][L2] iter = 100, cost = 2750, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.35233, loss_f = 4.0818, maxel = 0
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=33, success: False, prev_class = 0, new_class = 0
+i =  34
+[L1] Image of class  0  targeted to  8 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99969, loss_f = 9.8098, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.97042, loss_f = 4.4238, maxel = 0
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.72581, loss_f = 1.9285, maxel = 0
+Early Discover made at  6
+[STATS][L3](First valid attack found!) iter = 29, cost = 794
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=34, success: True, prev_class = 0, new_class = 8
+i =  35
+[L1] Image of class  0  targeted to  9 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99966, loss_f = 9.4285, maxel = 0
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99146, loss_f = 5.8748, maxel = 0
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.84036, loss_f = 2.615, maxel = 0
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.42443, loss_f = 1.0185, maxel = 0
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 36, cost = 993
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=35, success: True, prev_class = 0, new_class = 9
+i =  36
+[L1] Image of class  6  targeted to  0 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 18.363, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99995, loss_f = 15.698, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99988, loss_f = 14.656, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99977, loss_f = 13.915, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99956, loss_f = 13.161, maxel = 6
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99909, loss_f = 12.186, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99826, loss_f = 11.25, maxel = 6
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.99692, loss_f = 10.479, maxel = 6
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.99482, loss_f = 9.812, maxel = 6
+[STATS][L2] iter = 90, cost = 2482, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99148, loss_f = 9.1492, maxel = 6
+[STATS][L2] iter = 100, cost = 2762, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.98535, loss_f = 8.3942, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=36, success: False, prev_class = 6, new_class = 6
+i =  37
+[L1] Image of class  6  targeted to  1 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 15.256, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99997, loss_f = 13.041, maxel = 6
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99995, loss_f = 11.854, maxel = 6
+[STATS][L2] iter = 30, cost = 799, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99992, loss_f = 11.028, maxel = 6
+[STATS][L2] iter = 40, cost = 1079, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99985, loss_f = 10.155, maxel = 6
+[STATS][L2] iter = 50, cost = 1359, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99976, loss_f = 9.5239, maxel = 6
+[STATS][L2] iter = 60, cost = 1639, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99958, loss_f = 8.8168, maxel = 6
+[STATS][L2] iter = 70, cost = 1915, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.99919, loss_f = 8.0801, maxel = 6
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.9988, loss_f = 7.6173, maxel = 6
+[STATS][L2] iter = 90, cost = 2475, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99789, loss_f = 6.9796, maxel = 6
+[STATS][L2] iter = 100, cost = 2755, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.99614, loss_f = 6.3343, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=37, success: False, prev_class = 6, new_class = 6
+i =  38
+[L1] Image of class  6  targeted to  2 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 14.017, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99994, loss_f = 10.931, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99972, loss_f = 9.2181, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 799, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99901, loss_f = 7.8132, maxel = 6
+[STATS][L2] iter = 40, cost = 1079, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99719, loss_f = 6.7221, maxel = 6
+[STATS][L2] iter = 50, cost = 1358, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99356, loss_f = 5.8263, maxel = 6
+[STATS][L2] iter = 60, cost = 1638, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.97747, loss_f = 4.5268, maxel = 6
+[STATS][L2] iter = 70, cost = 1915, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.95252, loss_f = 3.7519, maxel = 6
+[STATS][L2] iter = 80, cost = 2194, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.91729, loss_f = 3.1684, maxel = 6
+[STATS][L2] iter = 90, cost = 2474, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.78417, loss_f = 2.1296, maxel = 6
+[STATS][L2] iter = 100, cost = 2753, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.56847, loss_f = 1.3028, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=38, success: False, prev_class = 6, new_class = 6
+i =  39
+[L1] Image of class  6  targeted to  3 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 14.973, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99997, loss_f = 12.667, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.9999, loss_f = 11.486, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99983, loss_f = 10.781, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99964, loss_f = 9.9913, maxel = 6
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99936, loss_f = 9.2804, maxel = 6
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99901, loss_f = 8.7963, maxel = 6
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.9985, loss_f = 8.2931, maxel = 6
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.99741, loss_f = 7.5975, maxel = 6
+[STATS][L2] iter = 90, cost = 2482, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99518, loss_f = 7.009, maxel = 6
+[STATS][L2] iter = 100, cost = 2762, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.992, loss_f = 6.2917, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=39, success: False, prev_class = 6, new_class = 6
+i =  40
+[L1] Image of class  6  targeted to  4 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 12.874, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.9999, loss_f = 10.026, maxel = 6
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99959, loss_f = 8.5522, maxel = 6
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.999, loss_f = 7.645, maxel = 6
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99782, loss_f = 6.8522, maxel = 6
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99583, loss_f = 6.1967, maxel = 6
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99154, loss_f = 5.4853, maxel = 6
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.97534, loss_f = 4.4009, maxel = 6
+[STATS][L2] iter = 80, cost = 2197, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.95792, loss_f = 3.8558, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 90, cost = 2477, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.90981, loss_f = 3.0647, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 100, cost = 2757, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.81938, loss_f = 2.3217, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=40, success: False, prev_class = 6, new_class = 6
+i =  41
+[L1] Image of class  6  targeted to  5 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 18.236, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99997, loss_f = 16.695, maxel = 6
+[STATS][L2] iter = 20, cost = 521, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99993, loss_f = 16.051, maxel = 6
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.9999, loss_f = 15.458, maxel = 6
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99986, loss_f = 14.897, maxel = 6
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99979, loss_f = 14.462, maxel = 6
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99969, loss_f = 13.913, maxel = 6
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.99953, loss_f = 13.513, maxel = 6
+[STATS][L2] iter = 80, cost = 2199, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.99932, loss_f = 13.207, maxel = 6
+[STATS][L2] iter = 90, cost = 2479, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99892, loss_f = 12.768, maxel = 6
+[STATS][L2] iter = 100, cost = 2756, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.99843, loss_f = 12.443, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=41, success: False, prev_class = 6, new_class = 6
+i =  42
+[L1] Image of class  6  targeted to  7 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 17.981, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 252, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99997, loss_f = 16.054, maxel = 6
+[STATS][L2] iter = 20, cost = 520, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99995, loss_f = 15.044, maxel = 6
+[STATS][L2] iter = 30, cost = 799, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99992, loss_f = 14.609, maxel = 6
+[STATS][L2] iter = 40, cost = 1079, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99988, loss_f = 14.08, maxel = 6
+[STATS][L2] iter = 50, cost = 1359, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99981, loss_f = 13.49, maxel = 6
+[STATS][L2] iter = 60, cost = 1639, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99971, loss_f = 12.917, maxel = 6
+[STATS][L2] iter = 70, cost = 1919, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.99961, loss_f = 12.444, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 80, cost = 2196, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.99941, loss_f = 11.942, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 90, cost = 2476, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99917, loss_f = 11.547, maxel = 6
+[STATS][L2] iter = 100, cost = 2754, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.99872, loss_f = 11.089, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=42, success: False, prev_class = 6, new_class = 6
+i =  43
+[L1] Image of class  6  targeted to  8 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 16.703, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99998, loss_f = 14.821, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99995, loss_f = 13.457, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99989, loss_f = 12.438, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99983, loss_f = 11.824, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99968, loss_f = 10.936, maxel = 6
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.99947, loss_f = 10.162, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.99928, loss_f = 9.649, maxel = 6
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.9989, loss_f = 9.0739, maxel = 6
+[STATS][L2] iter = 90, cost = 2482, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99795, loss_f = 8.4197, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.99694, loss_f = 7.836, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=43, success: False, prev_class = 6, new_class = 6
+i =  44
+[L1] Image of class  6  targeted to  9 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 1, loss_f = 16.995, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99995, loss_f = 14.532, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99986, loss_f = 13.299, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99975, loss_f = 12.373, maxel = 6
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.99961, loss_f = 11.61, maxel = 6
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.99936, loss_f = 11.034, maxel = 6
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.999, loss_f = 10.401, maxel = 6
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.99854, loss_f = 9.4487, maxel = 6
+[STATS][L2] iter = 80, cost = 2201, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.99797, loss_f = 8.7404, maxel = 6
+[STATS][L2] iter = 90, cost = 2481, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.99699, loss_f = 8.106, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 100, cost = 2761, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.99509, loss_f = 7.1368, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=44, success: False, prev_class = 6, new_class = 6
+i =  45
+[L1] Image of class  6  targeted to  0 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 19.211, maxel = 6
+[WARNING] Rebuilt intial vecotr has a loss different by -0.000589334530914698
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99955, loss_f = 15.611, maxel = 6
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.98707, loss_f = 13.595, maxel = 6
+[STATS][L2] iter = 30, cost = 801, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.8902, loss_f = 12.022, maxel = 6
+[STATS][L2] iter = 40, cost = 1081, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.79335, loss_f = 11.127, maxel = 6
+[STATS][L2] iter = 50, cost = 1361, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.68602, loss_f = 10.252, maxel = 6
+[STATS][L2] iter = 60, cost = 1641, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.69809, loss_f = 9.3709, maxel = 6
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.68173, loss_f = 8.8274, maxel = 6
+[STATS][L2] iter = 80, cost = 2200, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.58879, loss_f = 7.988, maxel = 6
+[STATS][L2] iter = 90, cost = 2480, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.66796, loss_f = 6.9238, maxel = 6
+[STATS][L2] iter = 100, cost = 2758, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.67156, loss_f = 6.1988, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=45, success: False, prev_class = 6, new_class = 6
+i =  46
+[L1] Image of class  6  targeted to  1 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 16.929, maxel = 6
+[WARNING] Rebuilt intial vecotr has a loss different by -0.0007136898523469881
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 251, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99916, loss_f = 14.335, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 520, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.94517, loss_f = 12.44, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 800, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.67463, loss_f = 11.233, maxel = 6
+[STATS][L2] iter = 40, cost = 1080, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.64306, loss_f = 10.457, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 50, cost = 1360, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.60875, loss_f = 9.8022, maxel = 6
+[STATS][L2] iter = 60, cost = 1638, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.56714, loss_f = 9.1131, maxel = 6
+[STATS][L2] iter = 70, cost = 1916, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.68451, loss_f = 8.4493, maxel = 6
+[STATS][L2] iter = 80, cost = 2195, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.61298, loss_f = 7.3881, maxel = 6
+[STATS][L2] iter = 90, cost = 2473, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.545, loss_f = 6.0982, maxel = 6
+[STATS][L2] iter = 100, cost = 2753, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.61286, loss_f = 5.0457, maxel = 6
+[STATS][L3]The algorithm did not converge
+[STATS][L1] no=46, success: False, prev_class = 6, new_class = 6
+i =  47
+[L1] Image of class  6  targeted to  2 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 16.405, maxel = 6
+[WARNING] Rebuilt intial vecotr has a loss different by -8.75581377819401e-05
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99992, loss_f = 13.153, maxel = 6
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.99901, loss_f = 11.529, maxel = 6
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.99626, loss_f = 10.139, maxel = 6
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.98865, loss_f = 8.8868, maxel = 6
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.92908, loss_f = 7.4496, maxel = 6
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.79445, loss_f = 6.0742, maxel = 6
+[STATS][L2] iter = 70, cost = 1922, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.7258, loss_f = 5.0299, maxel = 6
+[STATS][L2] iter = 80, cost = 2202, iter_sc = 23.000,iter_do = 23.000, size = (1, 32, 32, 3), loss = 0.68117, loss_f = 4.0318, maxel = 6
+[STATS][L2] iter = 90, cost = 2482, iter_sc = 33.000,iter_do = 33.000, size = (1, 32, 32, 3), loss = 0.53202, loss_f = 2.8408, maxel = 6
+[STATS][L2] iter = 100, cost = 2762, iter_sc = 43.000,iter_do = 43.000, size = (1, 32, 32, 3), loss = 0.3788, loss_f = 1.5948, maxel = 6
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 108, cost = 3009
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=47, success: True, prev_class = 6, new_class = 2
+i =  48
+[L1] Image of class  6  targeted to  3 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 12.243, maxel = 6
+[WARNING] Rebuilt intial vecotr has a loss different by -0.0003462112994938593
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 250, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.96185, loss_f = 3.9404, maxel = 6
+Early Discover made at  4
+[STATS][L3](First valid attack found!) iter = 19, cost = 515
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=48, success: True, prev_class = 6, new_class = 3
+i =  49
+[L1] Image of class  6  targeted to  4 .
+[STATS][L2] iter = 0, cost = 0, iter_sc = 0.000,iter_do = 0.000, size = (1, 2, 2, 3), loss = 0.99999, loss_f = 16.989, maxel = 6
+[WARNING] Rebuilt intial vecotr has a loss different by -0.00032158440138374544
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 10, cost = 253, iter_sc = 5.000,iter_do = 5.000, size = (1, 8, 8, 3), loss = 0.99972, loss_f = 13.837, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 20, cost = 522, iter_sc = 5.000,iter_do = 5.000, size = (1, 16, 16, 3), loss = 0.95355, loss_f = 10.617, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 30, cost = 802, iter_sc = 1.000,iter_do = 1.000, size = (1, 32, 32, 3), loss = 0.68222, loss_f = 8.9775, maxel = 6
+[STATS][L2] iter = 40, cost = 1082, iter_sc = 11.000,iter_do = 11.000, size = (1, 32, 32, 3), loss = 0.61513, loss_f = 7.7335, maxel = 6
+[WARNING][L5] Using rounded perturbation to the domain
+[STATS][L2] iter = 50, cost = 1362, iter_sc = 21.000,iter_do = 21.000, size = (1, 32, 32, 3), loss = 0.54678, loss_f = 5.6326, maxel = 6
+[STATS][L2] iter = 60, cost = 1642, iter_sc = 3.000,iter_do = 3.000, size = (1, 32, 32, 3), loss = 0.66365, loss_f = 3.4109, maxel = 6
+[STATS][L2] iter = 70, cost = 1921, iter_sc = 13.000,iter_do = 13.000, size = (1, 32, 32, 3), loss = 0.27732, loss_f = 1.3925, maxel = 6
+Early Discover made at  5
+[STATS][L3](First valid attack found!) iter = 73, cost = 2028
+[STATS][L3]Early Stopping becuase minimum reached
+[STATS][L1] no=49, success: True, prev_class = 6, new_class = 4
