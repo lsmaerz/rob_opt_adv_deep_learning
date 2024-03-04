@@ -1,0 +1,12 @@
+tau = 0.1;
+phi=@(r,u) 0.5 * ((r-u).^2 + tau .* u);
+[R,U] = meshgrid(-1.5:0.01:1.5);
+z = phi(R,U);
+contour(R,U,z,(-2:0.05:2));
+xlabel('$r$','Interpreter','latex');
+ylabel('$u$','Interpreter','latex');
+%title('Isolines of $\phi(r,u)$','Interpreter','latex');
+hold on;
+quiver([0 0], [1 -1], [-1 1], 0.2*[(tau+1) (tau-1)], 'black');
+axis equal;
+hold off;
