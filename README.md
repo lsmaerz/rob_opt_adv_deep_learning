@@ -1,6 +1,6 @@
 # Robust Optimization for Adversarial Deep Learning
 
-This repository contains the code of to the master thesis 'Robust Optimization for Adversarial Deep Learning' (https://doi.org/...) by Lars Steffen März from October 19, 2023 at TU Darmstadt published via TUprints under the
+This repository contains the code of to the master thesis 'Robust Optimization for Adversarial Deep Learning' (https://doi.org/10.26083/tuprints-00026745) by Lars Steffen März from October 19, 2023 at TU Darmstadt published via TUprints under the
 
 *LICENSE:*
 CC BY 4.0 International - Creative Commons, Attribution, cf. https://creativecommons.org/licenses/by/4.0
